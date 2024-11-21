@@ -6,8 +6,8 @@
 }
 
 .footer__text {
-  width: 104px;
-  height: 16px;
+  margin: 0;
+  max-width: 104px;
   white-space: nowrap;
   font-weight: 400;
   line-height: 16px;

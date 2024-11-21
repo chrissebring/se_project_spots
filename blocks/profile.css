@@ -8,6 +8,8 @@
   height: 190px;
   width: 190px;
   margin-right: 20px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .profile__column {
@@ -30,6 +32,7 @@
   font-weight: 500;
   line-height: 1;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .profile__edit-btn:hover {
@@ -64,12 +67,13 @@
 }
 
 .profile__add-btn {
-  margin: 138px 0 20px auto;
-  width: 149px;
+  margin-left: auto;
+  align-self: end;
+  width: 157px;
   height: 52px;
   background-color: #212121;
   color: #fff;
-  border-radius: 12px;
+  border-radius: 8px;
   border-style: none;
   display: flex;
   align-items: center;
@@ -78,11 +82,7 @@
   font-weight: 500;
   line-height: 1;
   font-size: 16px;
-}
-
-.profile__add-btn img {
-  width: 12px;
-  height: 12px;
+  cursor: pointer;
 }
 
 .profile__add-btn:hover {
